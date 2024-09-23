@@ -1,11 +1,11 @@
-my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 n = 0
 primes = []
 not_primes = []
 
-for i in range(len(my_list)):
+for i in range(len(numbers)):
     is_prime = True
-    n = my_list[i]
+    n = numbers[i]
     if n < 2:
         print(n, '- не простое и не составное число')
         continue
